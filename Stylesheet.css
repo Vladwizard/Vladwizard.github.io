@@ -1,0 +1,17 @@
+header{
+    height: 30px;
+}
+body{
+    background: lightblue;
+}
+#textArea{
+    min-height: 400px;
+    background: white;
+}
+#textArea *{
+    display:inline;
+    
+}
+.marked{
+    background: lightgreen;
+}
