@@ -1,20 +1,30 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-    <link rel="stylesheet" href="Stylesheet.css"/>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <header>
-        <input id="findWordInput">
-        <button id="findButton">Найти</button>
-        <input id="swapWordInput">
-        <button id="swapButton">Заменить</button>
-    </header>
-    
-    <main contenteditable="true" id="textArea">
-    
-    </main>
+    <div id="mainBlock" class="flexColumn">
+        <header class="flexRow">
+            <button>Каталог</button>
+            <button><img src="/star.svg"><p>Избранное</p></button>
+        </header>
+        <section id='conteinerMainBlock' class="flexColumn">
 
-    <script src="mainScript.js"></script>
+        </section>
+        <script src="mainBlock.js"></script>
+    </div>
+
 </body>
+
+</html>
+<!-- <script>
+    let nameConteiner = 'MainBlock'
+    let conteiner = document.getElementById('MainBlock');
+    console.log(conteiner)
+    conteiner.innerHTML = '123'
+    let sectionsButtons = document.querySelectorAll('.MainBlock');
+    console.log(sectionsButtons)
+</script> -->
